@@ -35,7 +35,13 @@
 # print(xyz[1])
 # print(xyz[2])
 
+xyz = int(input("введіть тризначне число: "))
+
+print("Перше: ",xyz//100)
+print("Друге: ",(xyz//10)%10)
+print("Трете: ",xyz % 10)
+
 # 5 task
-invest = int(input("Введіть сумму депозиту: "))
-years = int(input("На скількі років"))
-print("Прибуток=  ",((invest*10)/100)**years)
+# invest = int(input("Введіть сумму депозиту: "))
+# years = int(input("На скількі років"))
+# print("Прибуток=  ", (invest*10)/100)**years)
